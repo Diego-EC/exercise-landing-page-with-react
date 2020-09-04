@@ -1,16 +1,16 @@
 Dudas:
 1. ¿por qué cada Rigo baby sale más pequeño?
-
+flex-grow
 2. ¿como informo la URL de imagenes?
-
+class
 3. la declaración de props, ¿va dentro o fuera de la función?
-
+fuera
 4. por qué Card.propTypes en lugar de Card.PropTypes con P mayúscula.
 En los ejercicios de practica se pone con mayúscula y funciona.
-
+es un atributo del objeto card.
 5. Si tengo más de 4 cards, y quiero que haya 4 por row, ¿eso se controla por código o hay componentes
 de bootstrap y/o React para hacerlo?
-
+lo hace bootstrap
 Notas:
 1. Using target="_blank" without rel="noopener noreferrer" is a security risk:
 https://stackoverflow.com/questions/50709625/link-with-target-blank-and-rel-noopener-noreferrer-still-vulnerable/50709760

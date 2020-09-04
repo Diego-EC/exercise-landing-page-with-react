@@ -1,16 +1,16 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Button } from "./button.js";
-import rigoImage from "../../img/rigo-baby.jpg";
+import { ButtonPrimary } from "../button-primary.js";
+import rigoImage from "../../../img/rigo-baby.jpg";
 
 export function Card(props) {
 	//console.log(props.cardImgURL);
 	//let lol = props.cardImgURL;
-	//const logo = require(lol); // with require
+	//const logo = require(props.cardImgURL); // with require
 
 	if (props.cardShow === true) {
 		return (
-			<div className="card m-1">
+			<div className="card col-3 p-1">
 				<img
 					className="card-img-top"
 					src={rigoImage}
@@ -19,7 +19,7 @@ export function Card(props) {
 				<div className="card-body">
 					<h5 className="card-title">{props.cardTitle}</h5>
 					<p className="card-text">{props.cardText}</p>
-					<Button
+					<ButtonPrimary
 						buttonLabel={props.cardButtonLabel}
 						buttonURL={props.cardButtonURL}
 					/>

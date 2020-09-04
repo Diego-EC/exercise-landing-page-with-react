@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-export function Button(props) {
+export function ButtonPrimary(props) {
 	return (
 		<button className="border-0 px-0">
 			<a
@@ -15,12 +15,12 @@ export function Button(props) {
 	);
 }
 
-Button.propTypes = {
+ButtonPrimary.propTypes = {
 	buttonURL: PropTypes.string,
 	buttonLabel: PropTypes.string
 };
 
-Button.defaultProps = {
+ButtonPrimary.defaultProps = {
 	buttonURL: "#",
 	buttonLabel: "Call to action!"
 };
